@@ -14,10 +14,6 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
   },
-  "engines": {
-    "node": "16.x",
-    "npm": "7.x"
-    },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
