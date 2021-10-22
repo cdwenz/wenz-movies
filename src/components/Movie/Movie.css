@@ -1,5 +1,31 @@
 .movie-detail{
   text-align: -webkit-center;
+  
+}
+
+.maket{
+  max-width: 500px;
   background-color: rgb(221, 226, 231);
-  backdrop-filter: blur(16px);
+  border-radius: 10px;
+}
+.maket img{
+  width: 200px;
+  height: 300px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.maketo{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.maketo ul{
+  text-align: left;
+}
+
+.plot{
+  width: 400px;
+  text-align: justify;
 }

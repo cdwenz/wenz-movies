@@ -17,11 +17,19 @@ class Movie extends React.Component {
             <div className="movie-detail">
                 {this.props.detail?
                     (
-                        <div>
+                        <div className="maket">
                             <h1>{this.props.detail.Title}</h1>
-                            <h5>{this.props.detail.Year}</h5>
-                            <h5>{this.props.detail.Genre}</h5>
+                            <div className="plot">{this.props.detail.Plot}</div>
+                            <div className="maketo">
                             <img src={this.props.detail.Poster} alt=""/>
+                            <ul>
+                                <li>Year: {this.props.detail.Year}</li>
+                                <li>Genre: {this.props.detail.Genre}</li>
+                                <li>Director: {this.props.detail.Director}</li>
+                                <li>Actors: {this.props.detail.Actors}</li>
+                                <li>Awards: {this.props.detail.Awards}</li>
+                            </ul>
+                            </div>
                         </div>
                     ):<h3>Cargando...</h3>
                 }
