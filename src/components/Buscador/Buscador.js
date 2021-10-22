@@ -25,7 +25,7 @@ export class Buscador extends Component {
     return (
       <div>
         <h2>Buscador</h2>
-        <form className="form-container" onSubmit={(e) => this.handleSubmit(e)}>
+        <form className="form-container">
           <div>
             <label className="label" htmlFor="title">Película: </label>
             <input
@@ -36,7 +36,7 @@ export class Buscador extends Component {
               onChange={(e) => this.handleChange(e)}
             />
           </div>
-          <button type="submit">BUSCAR</button>
+          <button onClick={(e) => this.handleSubmit(e)}>BUSCAR</button>
         </form>
         {this.props.movies === undefined?(<h1>ingresar pelicula..</h1>):(
 
