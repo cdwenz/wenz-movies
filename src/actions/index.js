@@ -1,8 +1,8 @@
+import fetch from 'fetch'
 export const ADD_MOVIE_FAVORITE = "ADD_MOVIE_FAVORITE";
 export const GET_MOVIES = "GET_MOVIES";
 export const GET_MOVIE_DETAIL = "GET_MOVIE_DETAIL"
 export const REMOVE_MOVIE_FAVORITE = "REMOVE_MOVIE_FAVORITE"
-
 export function getMovies(titulo){
     return function(dispatch) {
         return fetch("http://www.omdbapi.com/?apikey=a8dededa&s=" + titulo)
