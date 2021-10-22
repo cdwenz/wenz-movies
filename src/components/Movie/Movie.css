@@ -1,0 +1,5 @@
+.movie-detail{
+  text-align: -webkit-center;
+  background-color: rgb(221, 226, 231);
+  backdrop-filter: blur(16px);
+}

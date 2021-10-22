@@ -1,0 +1,15 @@
+.fav {
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+   justify-content: space-between;
+}
+.favoritos{
+    margin-left: 25px;
+}
+.movie-fav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}

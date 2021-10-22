@@ -1,0 +1,28 @@
+.cnt {
+    padding-top: 10px;
+}
+.form-container {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.form-container button {
+    margin-left: 20px;
+}
+.label {
+    padding-right: 10px;
+}
+.movie{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
